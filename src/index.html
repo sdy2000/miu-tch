@@ -1,0 +1,861 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <title>MiuTek</title>
+
+    <link href="./style/style.css" rel="stylesheet">
+    <link href="../dist/output.css" rel="stylesheet">
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!--==========Fixed-icons==========-->
+        <div class="social_bar">
+            <ul class="social_icons">
+                <li class="text-pink-600 hover:text-pink-700"><a href="#"><ion-icon
+                            name="logo-instagram"></ion-icon></a></li>
+                <li class="text-blue-800 hover:text-blue-900"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                </li>
+                <li class="text-green-600 hover:text-green-700"><a href="#"><ion-icon
+                            name="logo-whatsapp"></ion-icon></a></li>
+                <li class="text-red-600 hover:text-red-700"><a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                </li>
+                <li class="text-sky-800 hover:text-sky-900"><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </li>
+            </ul>
+        </div>
+        <!--==========Fixed-icons==========-->
+
+
+        <!--==========Start-Header==========-->
+        <header class="header_s">
+
+            <div class="right_bar relative lg:w-36">
+                <a href="#">
+                    <div class="fcc gap-1 absolute w-20 h-20 -top-10 right-10 md:right-0 lg:right-10">
+                        <img src="./img/logo.png" alt="Miura Teknalegist Logo" title="Miura Teknalegist Logo">
+                        <h2 class="text-xl md:text-2xl font-bold md:hidden lg:inline-flex">میوتک</h2>
+                    </div>
+                </a>
+            </div>
+
+            <div class="center_bar">
+                <ul class="side-bars fcc">
+                    <li><a href="#">خانه</a></li>
+                    <li><a href="#">وبلاگ</a></li>
+                    <li><a href="#">خدمات</a></li>
+                    <li><a href="#">سوالات متداول</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                    <li><a href="#">تماس با ما</a></li>
+                </ul>
+            </div>
+
+
+
+            <div class="left_bar fcc mt-1">
+
+                <div class="login_register hidden md:inline-flex">
+                    <ul class="hidden gap-2 font-semibold">
+                        <li><a href="#">ورود</a></li>
+                        /
+                        <li><a href="#">ثبت نام</a></li>
+                    </ul>
+
+                    <ul class="fcc gap-1 text-sm font-semibold">
+                        <li class="fcc gap-1"><a href="#">
+                                <label class="hidden lg:inline-flex" for="user-name">
+                                    <img class="h-8 w-8 rounded-full shadow-lg cursor-pointer" src="./img/sajad.jpg"
+                                        alt="user image icon">
+                                </label>
+                                <a id="user-name" href="#">سجاد خوش آمدید</a>
+                            </a></li>
+                        /
+                        <li><a href="#">خروج</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="hidden_list_bar md:hidden text-3xl">
+                    <a href="#"><ion-icon name="list-outline"></ion-icon></a>
+                </div>
+            </div>
+
+        </header>
+        <!--==========End-Header==========-->
+
+
+        <!--==========Start-Slider==========-->
+        <div class="slider fcc flex-col gap-4 bg-element-bg rs mb-1 td">
+            <div class="slider_header">
+                <div class="search_bar">
+                    <input id="search" class="bg-element-bg px-3 w-full td" type="text" placeholder="جستوجو ...">
+                    <label for="search"><ion-icon name="search-outline"></ion-icon></label>
+                </div>
+            </div>
+            <div class="sliders relative fcc gap-12 w-full mt-10 lg:mt-0">
+
+
+                <div class="slider_card hidden lg:inline-flex">
+                    <img class="sc_img" src="./img/6-surgery.jpg" alt="slider imge">
+                    <div class="sc_info">
+                        <div class="sc_author_info">
+                            <b class="text-color-y">1401/09/12</b>
+                            <i>توسط</i>
+                            <b class="text-color-y">سجاد درویش</b>
+                        </div>
+                        <div class="sc_content">
+                            <p>
+                                <b>سرتیتر قرار میگیرد</b>
+                                دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار دریای آبی را تجربه
+                                کنید…
+                            </p>
+                        </div>
+                        <div class="sc_tags">
+                            <b>تگ ها</b>
+                            <b>تگ ها</b>
+                            <b>تگ ها</b>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="slider_card scale-[1.15] w-[80%] lg:w-[26%]">
+                    <img class="sc_img" src="./img/3-surgery.jpg" alt="slider imge">
+                    <div class="sc_info">
+                        <div class="sc_author_info">
+                            <b class="text-color-y">1401/09/12</b>
+                            <i>توسط</i>
+                            <b class="text-color-y">سجاد درویش</b>
+                        </div>
+                        <div class="sc_content">
+                            <p>
+                                <b>سرتیتر قرار میگیرد</b>
+                                دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار دریای آبی را تجربه
+                                کنید…
+                            </p>
+                        </div>
+                        <div class="sc_tags">
+                            <b>تگ ها</b>
+                            <b>تگ ها</b>
+                            <b>تگ ها</b>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="slider_card hidden lg:inline-flex">
+                    <img class="sc_img" src="./img/4-surgery.jpg" alt="slider imge">
+                    <div class="sc_info">
+                        <div class="sc_author_info">
+                            <b class="text-color-y">1401/09/12</b>
+                            <i>توسط</i>
+                            <b class="text-color-y">سجاد درویش</b>
+                        </div>
+                        <div class="sc_content">
+                            <p>
+                                <b>سرتیتر قرار میگیرد</b>
+                                دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار دریای آبی را تجربه
+                                کنید…
+                            </p>
+                        </div>
+                        <div class="sc_tags">
+                            <b>تگ ها</b>
+                            <b>تگ ها</b>
+                            <b>تگ ها</b>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="slider_chvron right-2">
+                    <span class="slider_move_item">
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </span>
+                </div>
+                <div class="slider_chvron left-2">
+                    <span class="slider_move_item">
+                        <ion-icon name="chevron-back-outline"></ion-icon>
+                    </span>
+                </div>
+                <div class="absolute fcc bottom-0 text-white text-lg">
+                    <ul class="slider_dot fcc">
+                        <li><ion-icon name="radio-button-off-outline"></ion-icon></li>
+                        <li><ion-icon name="radio-button-on-outline"></ion-icon></li>
+                        <li><ion-icon name="radio-button-off-outline"></ion-icon></li>
+                        <li><ion-icon name="radio-button-off-outline"></ion-icon></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <!--==========End-Slider==========-->
+
+
+        <!--==========Start-NavBar==========-->
+        <nav class="navbar_s">
+
+            <ul class="nav_bar_s fcc gap-6 text-sm font-bold">
+                <li>
+                    <a href="#" class="fcc">
+                        تکنولوژی اتاق عمل
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </a>
+                    <ul hidden>
+                        <li><a href="#">سلام دنیا</a></li>
+                        <li><a href="#">سلام دنیا</a></li>
+                        <li><a href="#">سلام دنیا</a></li>
+                        <li><a href="#">سلام دنیا</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="fcc">
+                        ست جراحی
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </a>
+                    <ul hidden>
+                        <li><a href="#">سلام دنیا</a></li>
+                        <li><a href="#">سلام دنیا</a></li>
+                        <li><a href="#">سلام دنیا</a></li>
+                        <li><a href="#">سلام دنیا</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="fcc">
+                        انواع بیماری
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="fcc">
+                        بخیه زدن
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </a>
+                </li>
+                <li><a href="#">آموزش خصوصی</a></li>
+            </ul>
+
+            <dvi class="fcc gap-3">
+                <span class="fcc border-sky-500 text-lg font-bold text-sky-500"><ion-icon
+                        name="star-outline"></ion-icon></span>
+                <span class="text-sky-500 text-sm font-bold">مخصوص اعضای ویژه</span>
+            </dvi>
+
+        </nav>
+        <!--==========End-NavBar==========-->
+
+
+
+        <!--==========Start-Content==========-->
+        <div class="content_s">
+
+            <!--==========Start-Last_articles==========-->
+            <div class="last_articles">
+                <div class="articles_header">
+                    <b>آخرین مقالات میوتک</b>
+                    <a href="#">
+                        <span class="text-xs fcc gap-2">
+                            مشاهده بیشتر
+                            <sapn class="text-sky-500 text-lg"><ion-icon name="arrow-back-outline"></ion-icon></sapn>
+                        </span>
+                    </a>
+                </div>
+                <div class="articles_content md:m-3">
+                    <div class="articel_cards fcc gap-4 mt-4 flex-wrap">
+
+
+                        <div class="article_card">
+                            <img class="card_img" src="./img/1-surgery.jpg" alt="surgery room">
+                            <span class="article_level  bg-blue-600">عمومی</span>
+                            <h3 class="card_title">آموزش تکنسین اتاق عمل
+                            </h3>
+                            <p class="article_short_description">
+                                سرتیتر قرار میگیرد دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار
+                                سرتیتر قراررای ررای آبی را تجربه کنید…
+
+
+                            </p>
+                            <div class="card_footer">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="./img/sajad.jpg" alt="Author Image">
+                                    <p class="article_author_ingo">
+                                        <b>سجاد درویش</b>
+                                        <i>دو روز پیش</i>
+                                    </p>
+                                </div>
+                                <div class="article_view">
+                                    <span class="av_view text-sky-500">
+                                        <ion-icon name="pricetags-outline"></ion-icon>
+                                        56
+                                    </span>
+                                    <span class="av_view text-red-600">
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        254
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article_card">
+                            <img class="card_img" src="./img/10-surgery.jpg" alt="surgery room">
+                            <span class="article_level  bg-yellow-500">متوسط</span>
+                            <h3 class="card_title">آموزش تکنسین اتاق عمل
+                            </h3>
+                            <p class="article_short_description">
+                                سرتیتر قرار میگیرد دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار
+                                سرتیتر قراررای ررای آبی را تجربه کنید…
+
+
+                            </p>
+                            <div class="card_footer">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="./img/sajad.jpg" alt="Author Image">
+                                    <p class="article_author_ingo">
+                                        <b>سجاد درویش</b>
+                                        <i>دو روز پیش</i>
+                                    </p>
+                                </div>
+                                <div class="article_view">
+                                    <span class="av_view text-sky-500">
+                                        <ion-icon name="pricetags-outline"></ion-icon>
+                                        54
+                                    </span>
+                                    <span class="av_view text-red-600">
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        243
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article_card">
+                            <img class="card_img" src="./img/2-surgery.jpg" alt="surgery room">
+                            <span class="article_level bg-red-500">تخصوصی</span>
+                            <h3 class="card_title">آموزش تکنسین اتاق عمل
+                            </h3>
+                            <p class="article_short_description">
+                                سرتیتر قرار میگیرد دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار
+                                سرتیتر قراررای ررای آبی را تجربه کنید…
+
+
+                            </p>
+                            <div class="card_footer">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="./img/sajad.jpg" alt="Author Image">
+                                    <p class="article_author_ingo">
+                                        <b>سجاد درویش</b>
+                                        <i>دو روز پیش</i>
+                                    </p>
+                                </div>
+                                <div class="article_view">
+                                    <span class="av_view text-sky-500">
+                                        <ion-icon name="pricetags-outline"></ion-icon>
+                                        8
+                                    </span>
+                                    <span class="av_view text-red-600">
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        78
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article_card">
+                            <img class="card_img" src="./img/9-surgery.jpg" alt="surgery room">
+                            <span class="article_level bg-blue-600">عمومی</span>
+                            <h3 class="card_title">آموزش تکنسین اتاق عمل
+                            </h3>
+                            <p class="article_short_description">
+                                سرتیتر قرار میگیرد دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار
+                                سرتیتر قراررای ررای آبی را تجربه کنید…
+
+
+                            </p>
+                            <div class="card_footer">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="./img/sajad.jpg" alt="Author Image">
+                                    <p class="article_author_ingo">
+                                        <b>سجاد درویش</b>
+                                        <i>دو روز پیش</i>
+                                    </p>
+                                </div>
+                                <div class="article_view">
+                                    <span class="av_view text-sky-500">
+                                        <ion-icon name="pricetags-outline"></ion-icon>
+                                        67
+                                    </span>
+                                    <span class="av_view text-red-600">
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        988
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article_card">
+                            <img class="card_img" src="./img/3-surgery.jpg" alt="surgery room">
+                            <span class="article_level bg-blue-600">عمومی</span>
+                            <h3 class="card_title">آموزش تکنسین اتاق عمل
+                            </h3>
+                            <p class="article_short_description">
+                                سرتیتر قرار میگیرد دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار
+                                سرتیتر قراررای ررای آبی را تجربه کنید…
+
+
+                            </p>
+                            <div class="card_footer">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="./img/sajad.jpg" alt="Author Image">
+                                    <p class="article_author_ingo">
+                                        <b>سجاد درویش</b>
+                                        <i>دو روز پیش</i>
+                                    </p>
+                                </div>
+                                <div class="article_view">
+                                    <span class="av_view text-sky-500">
+                                        <ion-icon name="pricetags-outline"></ion-icon>
+                                        67
+                                    </span>
+                                    <span class="av_view text-red-600">
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        343
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article_card">
+                            <img class="card_img" src="./img/8-surgery.jpg" alt="surgery room">
+                            <span class="article_level bg-red-500">تخصوصی</span>
+                            <h3 class="card_title">آموزش تکنسین اتاق عمل
+                            </h3>
+                            <p class="article_short_description">
+                                سرتیتر قرار میگیرد دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار
+                                سرتیتر قراررای ررای آبی را تجربه کنید…
+
+
+                            </p>
+                            <div class="card_footer">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="./img/sajad.jpg" alt="Author Image">
+                                    <p class="article_author_ingo">
+                                        <b>سجاد درویش</b>
+                                        <i>دو روز پیش</i>
+                                    </p>
+                                </div>
+                                <div class="article_view">
+                                    <span class="av_view text-sky-500">
+                                        <ion-icon name="pricetags-outline"></ion-icon>
+                                        23
+                                    </span>
+                                    <span class="av_view text-red-600">
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        45
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article_card">
+                            <img class="card_img" src="./img/4-surgery.jpg" alt="surgery room">
+                            <span class="article_level bg-yellow-500">متوسط</span>
+                            <h3 class="card_title">آموزش تکنسین اتاق عمل
+                            </h3>
+                            <p class="article_short_description">
+                                سرتیتر قرار میگیرد دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار
+                                سرتیتر قراررای ررای آبی را تجربه کنید…
+
+
+                            </p>
+                            <div class="card_footer">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="./img/sajad.jpg" alt="Author Image">
+                                    <p class="article_author_ingo">
+                                        <b>سجاد درویش</b>
+                                        <i>دو روز پیش</i>
+                                    </p>
+                                </div>
+                                <div class="article_view">
+                                    <span class="av_view text-sky-500">
+                                        <ion-icon name="pricetags-outline"></ion-icon>
+                                        90
+                                    </span>
+                                    <span class="av_view text-red-600">
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        897
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article_card">
+                            <img class="card_img" src="./img/7-surgery.jpg" alt="surgery room">
+                            <span class="article_level bg-yellow-500">متوسط</span>
+                            <h3 class="card_title">آموزش تکنسین اتاق عمل
+                            </h3>
+                            <p class="article_short_description">
+                                سرتیتر قرار میگیرد دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار
+                                سرتیتر قراررای ررای آبی را تجربه کنید…
+
+
+                            </p>
+                            <div class="card_footer">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="./img/sajad.jpg" alt="Author Image">
+                                    <p class="article_author_ingo">
+                                        <b>سجاد درویش</b>
+                                        <i>دو روز پیش</i>
+                                    </p>
+                                </div>
+                                <div class="article_view">
+                                    <span class="av_view text-sky-500">
+                                        <ion-icon name="pricetags-outline"></ion-icon>
+                                        565
+                                    </span>
+                                    <span class="av_view text-red-600">
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        3453
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article_card">
+                            <img class="card_img" src="./img/5-surgery.jpg" alt="surgery room">
+                            <span class="article_level bg-red-500">تخصوصی</span>
+                            <h3 class="card_title">آموزش تکنسین اتاق عمل
+                            </h3>
+                            <p class="article_short_description">
+                                سرتیتر قرار میگیرد دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار
+                                سرتیتر قراررای ررای آبی را تجربه کنید…
+
+
+                            </p>
+                            <div class="card_footer">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="./img/sajad.jpg" alt="Author Image">
+                                    <p class="article_author_ingo">
+                                        <b>سجاد درویش</b>
+                                        <i>دو روز پیش</i>
+                                    </p>
+                                </div>
+                                <div class="article_view">
+                                    <span class="av_view text-sky-500">
+                                        <ion-icon name="pricetags-outline"></ion-icon>
+                                        56
+                                    </span>
+                                    <span class="av_view text-red-600">
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        212
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article_card">
+                            <img class="card_img" src="./img/6-surgery.jpg" alt="surgery room">
+                            <span class="article_level bg-blue-600">عمومی</span>
+                            <h3 class="card_title">آموزش تکنسین اتاق عمل
+                            </h3>
+                            <p class="article_short_description">
+                                سرتیتر قرار میگیرد دریاهای مراکش: هیجان‌انگیزترین سفر، هیجان‌انگیزترین سفر، در کنار
+                                سرتیتر قراررای ررای آبی را تجربه کنید…
+
+
+                            </p>
+                            <div class="card_footer">
+                                <div class="article_author">
+                                    <img class="article_author_img" src="./img/sajad.jpg" alt="Author Image">
+                                    <p class="article_author_ingo">
+                                        <b>سجاد درویش</b>
+                                        <i>دو روز پیش</i>
+                                    </p>
+                                </div>
+                                <div class="article_view">
+                                    <span class="av_view text-sky-500">
+                                        <ion-icon name="pricetags-outline"></ion-icon>
+                                        43
+                                    </span>
+                                    <span class="av_view text-red-600">
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                        565
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!--==========Start-Last_articles==========-->
+            <div
+                class="article_offer fcc flex-col md:flex-row bg-sky-600 bg-opacity-70 w-full px-3 md:px-4 py-2 md:py-8">
+                <div
+                    class="offer_right text-white flex justify-center items-center md:items-start flex-col gap-4 w-full sm:w-3/5 mx-6 my-4 md:my-12 text-center md:text-right">
+                    <h2 class="title-1">این پیشنهاد ما به شماست</h2>
+                    <p class="offer_description text-base md:text-lg">
+                        در اینجا مطلب پیشنهاد قرار میگیرد اینجا مطلب پیشنهاد قرار میگیرد اینجا مطلب پیشنهاد قرار میگیرد
+                    </p>
+                </div>
+                <div class="offer_left w-full mg:w-2/5 fcc flex-col gap-3 pb-3 md:p-0">
+                    <a class="button-1 text-sm sm:text-lg md:text-xl xl:text-2xl font-semibold md:font-bold"
+                        href="#">درخواست مشاروه</a>
+                    <a class="text-white text-base md:text-lg hover:text-color-y td" href="#">&rarr; نظرات کاربران</a>
+                </div>
+            </div>
+
+            <!--==========Start-Most_View==========-->
+            <div class="last_articles">
+                <div class="articles_header">
+                    <b>بیشترین بازدید</b>
+                    <a href="#">
+                        <span class="text-xs fcc gap-2">
+                            مشاهده بیشتر
+                            <sapn class="text-sky-500 text-lg"><ion-icon name="arrow-back-outline"></ion-icon></sapn>
+                        </span>
+                    </a>
+                </div>
+                <div class="articles_content md:m-3">
+                    <div class="articel_cards fcc flex-col gap-4 mt-4">
+
+
+                        <div class="mv_article_card flex-col-reverse md:flex-row">
+
+                            <div class="card_right px-6">
+                                <div>
+                                    <h3 class="title-1">
+                                        سرتیتر اینجا قرار میگیرد
+                                    </h3>
+                                    <span class="sub_title">
+                                        <i>ین سفر، در کنار دریای آب</i>
+                                    </span>
+                                </div>
+                                <p class="mv_card_description">
+                                    دریاهای مراکش: هیجان‌انگیزترین سفر، در کنار دریای آبی را تجربه کنید…
+                                    دریاهای مراکش: هیجان‌انگیزترین سفر، در کنار دریای آبی را تجربه کنید…
+                                    دریاهای مراکش: هیجان‌انگیزترین سفر، در کنار دریای آبی را تجربه کنید…
+                                </p>
+                                <div class="mv_card_footer">
+                                    <div class="mv_cf_right">
+                                        <a href="#" class="card_link">
+                                            &rarr; ادامه مطلب
+                                        </a>
+                                    </div>
+                                    <div class="mv_cf_left article_view">
+                                        <span class="av_view text-sky-500">
+                                            <ion-icon name="pricetags-outline"></ion-icon>
+                                            56
+                                        </span>
+                                        <span class="av_view text-red-600">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                            254
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card_left">
+                                <div class="img_Content -left-12 -top-10 rotate-[80deg]">
+                                    <img class="mv_card_img -rotate-[80deg] md:rounded-l-lg" src="./img/8-surgery.jpg"
+                                        alt="surgery room">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="mv_article_card  flex-col md:flex-row">
+
+                            <div class="card_left">
+                                <div class="img_Content -right-12 -top-10 -rotate-[80deg]">
+                                    <img class="mv_card_img rotate-[80deg] rounded-r-lg" src="./img/6-surgery.jpg"
+                                        alt="surgery room">
+                                </div>
+                            </div>
+
+                            <div class="card_right px-6 lg:px-0">
+                                <div>
+                                    <h3 class="title-1">
+                                        سرتیتر اینجا قرار میگیرد
+                                    </h3>
+                                    <span class="sub_title lg:px-1">
+                                        <i>ین سفر، در کنار دریای آب</i>
+                                    </span>
+                                </div>
+                                <p class="mv_card_description lg:px-3">
+                                    دریاهای مراکش: هیجان‌انگیزترین سفر، در کنار دریای آبی را تجربه کنید…
+                                    دریاهای مراکش: هیجان‌انگیزترین سفر، در کنار دریای آبی را تجربه کنید…
+                                    دریاهای مراکش: هیجان‌انگیزترین سفر، در کنار دریای آبی را تجربه کنید…
+                                </p>
+                                <div class="mv_card_footer lg:px-6">
+                                    <div class="mv_cf_right">
+                                        <a href="#" class="card_link">
+                                            &rarr; ادامه مطلب
+                                        </a>
+                                    </div>
+                                    <div class="mv_cf_left article_view">
+                                        <span class="av_view text-sky-500">
+                                            <ion-icon name="pricetags-outline"></ion-icon>
+                                            56
+                                        </span>
+                                        <span class="av_view text-red-600">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                            254
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="mv_article_card flex-col-reverse md:flex-row">
+
+                            <div class="card_right px-6">
+                                <div>
+                                    <h3 class="title-1">
+                                        سرتیتر اینجا قرار میگیرد
+                                    </h3>
+                                    <span class="sub_title">
+                                        <i>ین سفر، در کنار دریای آب</i>
+                                    </span>
+                                </div>
+                                <p class="mv_card_description">
+                                    دریاهای مراکش: هیجان‌انگیزترین سفر، در کنار دریای آبی را تجربه کنید…
+                                    دریاهای مراکش: هیجان‌انگیزترین سفر، در کنار دریای آبی را تجربه کنید…
+                                    دریاهای مراکش: هیجان‌انگیزترین سفر، در کنار دریای آبی را تجربه کنید…
+                                </p>
+                                <div class="mv_card_footer">
+                                    <div class="mv_cf_right">
+                                        <a href="#" class="card_link">
+                                            &rarr; ادامه مطلب
+                                        </a>
+                                    </div>
+                                    <div class="mv_cf_left article_view">
+                                        <span class="av_view text-sky-500">
+                                            <ion-icon name="pricetags-outline"></ion-icon>
+                                            56
+                                        </span>
+                                        <span class="av_view text-red-600">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                            254
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card_left">
+                                <div class="img_Content lg:-left-12 lg:-top-10 lg:rotate-[80deg]">
+                                    <img class="mv_card_img  lg:-rotate-[80deg] lg:rounded-l-lg"
+                                        src="./img/3-surgery.jpg" alt="surgery room">
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!--==========End-Content==========-->
+
+    </div>
+    <!--==========Start-Footer==========-->
+    <footer class="footer_s">
+
+        <div class="right_footer">
+
+            <div class="contact_us_form lg:border-dashed border-2 rounded-md p-1 flex w-full">
+                <div class="fcc flex-col lg:flex-row overflow-hidden rounded-md w-full gap-2 lg:gap-0">
+                    <span class="footer_inputs lg:w-4/12">
+                        <label class="pt-1" for="footer_phone"><ion-icon name="call-outline"></ion-icon></label>
+                        <input class=" footer_input"
+                            id="footer_phone" type="number" placeholder="شماره تماس">
+                    </span>
+                    <span class="footer_inputs lg:w-6/12">
+                        <label class="pt-1" for="footer_email"><ion-icon name="mail-outline"></ion-icon></label>
+                        <input class="footer_input"
+                            id="footer_email" type="email" placeholder="پست الکتریکی">
+                    </span>
+                    <button class="px-3 py-2 text-xs font-semibold text-white bg-sky-600 h-8 w-full lg:w-2/12">ارسال
+                        اطلاعات</button>
+                </div>
+            </div>
+
+            <div class="contact_us">
+                <ul class="text-white flex justify-start flex-col md:flex-row flex-wrap gap-3 md:gap-6">
+                    <li>تماس با ما</li>
+                    <li>ارتباط با ما</li>
+                    <li>مشاروه حرفه ای</li>
+                    <li>وبلاگ های ما</li>
+                    <li>همکاری با ما</li>
+                    <li>ارسال نظر</li>
+                    <li>وبلاگ های ما</li>
+                    <li>همکاری با ما</li>
+                    <li>ارسال نظر</li>
+                    <li>مشاروه حرفه ای</li>
+                    <li>وبلاگ های ما</li>
+                </ul>
+                <div class="contact_us_address ">
+                    <span class="flex justify-start flex-col gap-3">
+                        <p>
+                            <b>آدرس :</b>
+                            تهران - میران آزادی - خیابان امام خمینی-پلاک 4
+                        </p>
+                        <p>
+                            <b>شماره تماس :</b>
+                            56456456445
+                        </p>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="left_footer">
+            <div class="fcc gap-2">
+                <img class="w-16 h-20 lg:w-24 lg:h-28" src="img/logo.1.png" alt="">
+                <img class="w-16 h-20 lg:w-24 lg:h-28" src="img/logo.2.png" alt="">
+                <img class="w-16 h-20 lg:w-24 lg:h-28" src="img/logo.3.png" alt="">
+            </div>
+            <div class="footer_icons mt-8">
+                <ul class="footer_social_icons fcc sm:hidden gap-3 text-xl">
+                    <li class="text-pink-600 hover:text-pink-700"><a href="#"><ion-icon
+                                name="logo-instagram"></ion-icon></a></li>
+                    <li class="text-blue-800 hover:text-blue-900"><a href="#"><ion-icon
+                                name="logo-facebook"></ion-icon></a>
+                    </li>
+                    <li class="text-green-600 hover:text-green-700"><a href="#"><ion-icon
+                                name="logo-whatsapp"></ion-icon></a></li>
+                    <li class="text-red-600 hover:text-red-700"><a href="#"><ion-icon
+                                name="logo-youtube"></ion-icon></a>
+                    </li>
+                    <li class="text-sky-800 hover:text-sky-900"><a href="#"><ion-icon
+                                name="logo-linkedin"></ion-icon></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <!--==========End-Footer==========-->
+
+</body>
+
+</html>
